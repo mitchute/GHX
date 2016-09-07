@@ -9,9 +9,9 @@ Welcome to GHX Model's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
 
-
+    main
 
 Indices and tables
 ==================

@@ -20,7 +20,9 @@ path_to_json = sys.argv[1]
 path_to_loads = sys.argv[2]
 
 class GHXArray(object):
-    # global list of GHX's
+    """
+    GHX Array Docs
+    """
 
     def __init__(self, json_path, loads_path):
         # class data
