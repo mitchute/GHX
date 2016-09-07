@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # GHX Model documentation build configuration file, created by
-# sphinx-quickstart on Wed Sep 07 10:40:59 2016.
+# sphinx-quickstart on Wed Sep 07 10:56:46 2016.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -30,6 +30,7 @@
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
@@ -61,7 +62,7 @@ author = u'Matt S Mitchell'
 # built documents.
 #
 # The short X.Y version.
-version = u'0,0'
+version = u'0.0'
 # The full version, including alpha/beta/rc tags.
 release = u'0.0'
 
@@ -84,7 +85,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.

@@ -1,5 +1,5 @@
 .. GHX Model documentation master file, created by
-   sphinx-quickstart on Wed Sep 07 10:40:59 2016.
+   sphinx-quickstart on Wed Sep 07 10:56:46 2016.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
